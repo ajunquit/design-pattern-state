@@ -18,7 +18,6 @@ namespace pattern_state
             context.CustomState.Handle();
             context.ChangeState(new SolutionB());
             context.CustomState.Handle();
-            
         }
 
         static void ExampleTwo()
